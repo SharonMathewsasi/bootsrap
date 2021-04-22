@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .material-icons {
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand text-light" href="#">hTrack</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" aria-current="page" href="#"><i class="material-icons">face</i> Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#">Goals</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8 col-sm-4 text-dark" style="background-color: #04D9D9;">
+                    <h2>Benefits</h2>
+                    <ul>
+                        <li>Set Goals</li>
+                        <li>Receive customized notifications</li>
+                        <li>Get tips from experts and coaches</li>
+                    </ul>
+                </div>
+                <div class="col-xl-4 col-sm-4 text-dark" style="background-color: #9400D3;"><h2>Login</h2></div>
+            </div>
+        </div>
+    
+
+        </br>
+
+        <h2> PRODUCT RATING  <span class="label label-default" style="background-color: rgb(48, 156, 48);">5</span></h2>
+
+        <br>
+
+        <h2>Events</h2>
+
+        <div class="list-group" style="width: 450px;">
+
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                <h5 class="text-muted"><span class="glyphicon glyphicon-calendar"></span> APRIL 17, TUESDAY</h5>
+                <h1 style="font-weight: inherit; color: dar;">Hackathon</h1>
+                <h5 style="color: rgb(68, 68, 146);">Eite Trefortkert belso, 1088 Hungery, Budapest</h5>
+            </a>
+
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                <h5 class="text-muted"><span class="glyphicon glyphicon-calendar"></span> SEP 25, WEDNESDAY</h5>
+                <h1 style="font-weight: inherit; color: darkmagenta;">Seminar on Big Data</h1>
+                <h5 style="color: rgb(68, 68, 146);">Willy-Brandt-Strabe, 20095 Hamburg, Germany</h5>
+            </a>
+
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                <h5 class="text-muted"><span class="glyphicon glyphicon-calendar"></span> MAY 26, MONDAY</h5>
+                <h1 style="font-weight: inherit; color: darkmagenta;">Workshop on Agile Scrum</h1>
+                <h5 style="color:hotpink;">The Banqueting House, 61 Whitehall, Westminster, London</h5>
+                <h5 style="color: rgb(68, 68, 146);">SW1A 2ET, United Kingdom</h5>
+            </a>
+        </div>
+
+    </div>
+  
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
+
